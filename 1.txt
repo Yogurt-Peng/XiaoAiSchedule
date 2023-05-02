@@ -1,0 +1,283 @@
+<table id="kbtable" border="1" width="100%" cellspacing="0" cellpadding="0" class="Nsb_r_list Nsb_table">
+				<tbody><tr>
+					<th width="70" height="28" align="center">
+						&nbsp;
+					</th>
+					
+					<th width="123" height="28" align="center">星期一</th>
+					<th width="123" height="28" align="center">星期二</th>
+					<th width="123" height="28" align="center">星期三</th>
+					<th width="124" height="28" align="center">星期四</th>
+					<th width="124" height="28" align="center">星期五</th>
+					<th width="124" height="28" align="center">星期六</th>
+					
+						<th width="124" height="28" align="center">星期日</th>
+					
+				</tr> 
+				
+					<tr>
+							<th width="70" height="28" align="center">
+							第一大节&nbsp;<br>08:00-09:40
+							</th>
+							
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-1-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-1-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-1-1" class="kbcontent1" style="display: none;">操作系统<br><font title="周次(节次)">3-14(周)</font><br><font title="教室">第二实验楼B304</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-1-2" style="" class="kbcontent">操作系统<br><font title="老师">何青</font><br><font title="周次(节次)">3-14(周)[01-02节]</font><br><font title="教室">第二实验楼B304</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-2-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-2-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-2-1" class="kbcontent1" style="display: none;">计算机网络<br><font title="周次(节次)">2-13(周)</font><br><font title="教室">第三实验楼A602</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-2-2" style="" class="kbcontent">计算机网络<br><font title="老师">胡千红</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">2-13(周)[01-02节]</font><br><font title="教室">第三实验楼A602</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-3-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-3-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-3-1" class="kbcontent1" style="display: none;">计算机网络实验<br><font title="周次(节次)">6-13(周)</font><br><font title="教室">P-B703</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-3-2" style="" class="kbcontent">计算机网络实验<br><font title="老师">胡千红</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">6-13(周)[01-02节]</font><br><font title="教室">P-B703</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-4-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-4-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-4-1" class="kbcontent1" style="display: none;">Python编程及应用<br><font title="周次(节次)">1-8(周)</font><br><font title="教室">第三教学楼C204</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-4-2" style="" class="kbcontent">Python编程及应用<br><font title="老师">刘波涛</font><br><font title="周次(节次)">1-8(周)[01-02节]</font><br><font title="教室">第三教学楼C204</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top"> 
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-5-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-5-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-5-1" class="kbcontent1" style="display: none;">计算机网络<br><font title="周次(节次)">2-13(周)</font><br><font title="教室">第二实验楼B303</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-5-2" style="" class="kbcontent">计算机网络<br><font title="老师">胡千红</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">2-13(周)[01-02节]</font><br><font title="教室">第二实验楼B303</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-6-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-6-2">
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-6-1" class="kbcontent1" style="display: none;">单片机原理及应用<br><font title="周次(节次)">4,7,11(周)</font><br></div>
+								<div id="6F1CFC12A7C74F2390F827F26EBAD534-6-2" style="" class="kbcontent">单片机原理及应用<br><font title="老师">王南兰</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">4,7,11(周)[01-02-03-04节]</font><br></div>
+							</td>
+							
+								<td width="123" height="28" align="center" valign="top">
+									<input type="hidden" name="jx0415zbdiv_1" value="6F1CFC12A7C74F2390F827F26EBAD534-7-1">
+									<input type="hidden" name="jx0415zbdiv_2" value="6F1CFC12A7C74F2390F827F26EBAD534-7-2">
+									<div id="6F1CFC12A7C74F2390F827F26EBAD534-7-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+									<div id="6F1CFC12A7C74F2390F827F26EBAD534-7-2" style="" class="kbcontent">&nbsp;</div>
+								</td>
+							
+							
+					</tr>
+				
+					<tr>
+							<th width="70" height="28" align="center">
+							第二大节&nbsp;<br>10:00-11:40
+							</th>
+							
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-1-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-1-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-1-1" class="kbcontent1" style="display: none;">概率论与数理统计<br><font title="周次(节次)">1-15(周)</font><br><font title="教室">第二实验楼B305</font><br></div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-1-2" style="" class="kbcontent">概率论与数理统计<br><font title="老师">陈晔</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">1-15(周)[03-04节]</font><br><font title="教室">第二实验楼B305</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-2-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-2-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-2-1" class="kbcontent1" style="display: none;">Python编程及应用<br><font title="周次(节次)">1-8(周)</font><br><font title="教室">第三教学楼C204</font><br></div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-2-2" style="" class="kbcontent">Python编程及应用<br><font title="老师">刘波涛</font><br><font title="周次(节次)">1-8(周)[03-04节]</font><br><font title="教室">第三教学楼C204</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-3-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-3-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-3-1" class="kbcontent1" style="display: none;">操作系统实验<br><font title="周次(节次)">7-14(周)</font><br><font title="教室">P-D701</font><br></div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-3-2" style="" class="kbcontent">操作系统实验<br><font title="老师">何青</font><br><font title="周次(节次)">7-14(周)[03-04节]</font><br><font title="教室">P-D701</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-4-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-4-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-4-1" class="kbcontent1" style="display: none;">操作系统<br><font title="周次(节次)">3-14(周)</font><br><font title="教室">第三教学楼C204</font><br></div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-4-2" style="" class="kbcontent">操作系统<br><font title="老师">何青</font><br><font title="周次(节次)">3-14(周)[03-04节]</font><br><font title="教室">第三教学楼C204</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top"> 
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-5-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-5-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-5-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-5-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-6-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-6-2">
+								<div id="45FFD6A286B54B298A9701F99E5A6881-6-1" class="kbcontent1" style="display: none;">单片机原理及应用<br><font title="周次(节次)">4,7,11(周)</font><br></div>
+								<div id="45FFD6A286B54B298A9701F99E5A6881-6-2" style="" class="kbcontent">单片机原理及应用<br><font title="老师">王南兰</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">4,7,11(周)[01-02-03-04节]</font><br></div>
+							</td>
+							
+								<td width="123" height="28" align="center" valign="top">
+									<input type="hidden" name="jx0415zbdiv_1" value="45FFD6A286B54B298A9701F99E5A6881-7-1">
+									<input type="hidden" name="jx0415zbdiv_2" value="45FFD6A286B54B298A9701F99E5A6881-7-2">
+									<div id="45FFD6A286B54B298A9701F99E5A6881-7-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+									<div id="45FFD6A286B54B298A9701F99E5A6881-7-2" style="" class="kbcontent">&nbsp;</div>
+								</td>
+							
+							
+					</tr>
+				
+					<tr>
+							<th width="70" height="28" align="center">
+							第三大节&nbsp;<br>14:30-16:10
+							</th>
+							
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-1-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-1-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-1-1" class="kbcontent1" style="display: none;">大学体育与健康（四）<br><font title="周次(节次)">2-15(周)</font><br></div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-1-2" style="" class="kbcontent">大学体育与健康（四）<br><font title="周次(节次)">2-15(周)[05-06节]</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-2-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-2-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-2-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-2-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-3-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-3-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-3-1" class="kbcontent1" style="display: none;">马克思主义基本原理<br><font title="周次(节次)">1-16(周)</font><br><font title="教室">第二实验楼B301</font><br></div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-3-2" style="" class="kbcontent">马克思主义基本原理<br><font title="老师">胡珊琴</font><br><font title="周次(节次)">1-16(周)[05-06节]</font><br><font title="教室">第二实验楼B301</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-4-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-4-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-4-1" class="kbcontent1" style="display: none;">概率论与数理统计<br><font title="周次(节次)">1(周)</font><br><font title="教室">第三教学楼C105</font><br>----------------------<br>Python编程及应用<br><font title="周次(节次)">3,5,7,9(周)</font><br><font title="教室">P-D708</font><br></div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-4-2" style="" class="kbcontent">概率论与数理统计<br><font title="老师">陈晔</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">1(周)[05-06节]</font><br><font title="教室">第三教学楼C105</font><br>---------------------<br>Python编程及应用<br><font title="老师">刘波涛</font><br><font title="周次(节次)">3,5,7,9(周)[05-06节]</font><br><font title="教室">P-D708</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top"> 
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-5-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-5-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-5-1" class="kbcontent1" style="display: none;">形势与政策<br><font title="周次(节次)">9-10(周)</font><br><font title="教室">第三教学楼D201</font><br></div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-5-2" style="" class="kbcontent">形势与政策<br><font title="老师">曹司帅</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">9-10(周)[05-06节]</font><br><font title="教室">第三教学楼D201</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-6-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-6-2">
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-6-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="D2CCAB10CBCD49BBB670125E3E046F77-6-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							
+								<td width="123" height="28" align="center" valign="top">
+									<input type="hidden" name="jx0415zbdiv_1" value="D2CCAB10CBCD49BBB670125E3E046F77-7-1">
+									<input type="hidden" name="jx0415zbdiv_2" value="D2CCAB10CBCD49BBB670125E3E046F77-7-2">
+									<div id="D2CCAB10CBCD49BBB670125E3E046F77-7-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+									<div id="D2CCAB10CBCD49BBB670125E3E046F77-7-2" style="" class="kbcontent">&nbsp;</div>
+								</td>
+							
+							
+					</tr>
+				
+					<tr>
+							<th width="70" height="28" align="center">
+							第四大节&nbsp;<br>16:30-18:10
+							</th>
+							
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-1-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-1-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-1-1" class="kbcontent1" style="display: none;">大学英语（四）<br><font title="周次(节次)">1-14(周)</font><br><font title="教室">第三教学楼A405</font><br></div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-1-2" style="" class="kbcontent">大学英语（四）<br><font title="老师">李楠芳</font><br><font title="周次(节次)">1-14(周)[07-08节]</font><br><font title="教室">第三教学楼A405</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-2-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-2-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-2-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-2-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-3-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-3-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-3-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-3-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-4-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-4-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-4-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-4-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top"> 
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-5-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-5-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-5-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-5-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-6-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-6-2">
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-6-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="89880DE44DB34484BC2F4DB1CABEE72F-6-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							
+								<td width="123" height="28" align="center" valign="top">
+									<input type="hidden" name="jx0415zbdiv_1" value="89880DE44DB34484BC2F4DB1CABEE72F-7-1">
+									<input type="hidden" name="jx0415zbdiv_2" value="89880DE44DB34484BC2F4DB1CABEE72F-7-2">
+									<div id="89880DE44DB34484BC2F4DB1CABEE72F-7-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+									<div id="89880DE44DB34484BC2F4DB1CABEE72F-7-2" style="" class="kbcontent">&nbsp;</div>
+								</td>
+							
+							
+					</tr>
+				
+					<tr>
+							<th width="70" height="28" align="center">
+							第五大节&nbsp;<br>19:00-20:40
+							</th>
+							
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-1-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-1-2">
+								<div id="E40987033554416F84988F737118FC36-1-1" class="kbcontent1" style="display: none;">创业基础<br><font title="周次(节次)">1-16(周)</font><br><font title="教室">第二实验楼B401</font><br></div>
+								<div id="E40987033554416F84988F737118FC36-1-2" style="" class="kbcontent">创业基础<br><font title="老师">杜民</font><br><font title="行政职务(党员情况)">(中共党员)</font><br><font title="周次(节次)">1-16(周)[09-10节]</font><br><font title="教室">第二实验楼B401</font><br></div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-2-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-2-2">
+								<div id="E40987033554416F84988F737118FC36-2-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="E40987033554416F84988F737118FC36-2-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-3-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-3-2">
+								<div id="E40987033554416F84988F737118FC36-3-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="E40987033554416F84988F737118FC36-3-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-4-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-4-2">
+								<div id="E40987033554416F84988F737118FC36-4-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="E40987033554416F84988F737118FC36-4-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top"> 
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-5-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-5-2">
+								<div id="E40987033554416F84988F737118FC36-5-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="E40987033554416F84988F737118FC36-5-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							<td width="123" height="28" align="center" valign="top">
+								<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-6-1">
+								<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-6-2">
+								<div id="E40987033554416F84988F737118FC36-6-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+								<div id="E40987033554416F84988F737118FC36-6-2" style="" class="kbcontent">&nbsp;</div>
+							</td>
+							
+								<td width="123" height="28" align="center" valign="top">
+									<input type="hidden" name="jx0415zbdiv_1" value="E40987033554416F84988F737118FC36-7-1">
+									<input type="hidden" name="jx0415zbdiv_2" value="E40987033554416F84988F737118FC36-7-2">
+									<div id="E40987033554416F84988F737118FC36-7-1" class="kbcontent1" style="display: none;">&nbsp;</div>
+									<div id="E40987033554416F84988F737118FC36-7-2" style="" class="kbcontent">&nbsp;</div>
+								</td>
+							
+							
+					</tr>
+				
+				<tr>
+					<th width="70" height="28" align="center">
+					备注:
+					</th> <td colspan="7" align="left">操作系统实验 何青 7-14周;计算机网络实验 胡千红 6-13周;软件开发综合实践 佘青 16-18周;</td>
+				</tr> 
+		  </tbody></table>
