@@ -5,108 +5,159 @@ var JSDOM = jsdom.JSDOM;
 var table = fs.readFileSync('1.txt', 'utf-8');
 var document = new JSDOM(table).window.document;
 
+function scheduleHtmlParser(html)
+{
 
 
-function scheduleHtmlParser(html) {
-    let result = []
-    let $ = cheerio.load(html, { decodeEntities: false })
 
-    $('tbody').children().each(function (i, el) {
+    let courseAll = []; // 课程数组
 
-        if (i === 0) return;
+    let $ = cheerio.load(html, { decodeEntities: false }); // 加载HTML内容
 
-        $(el).children().each(function (i1, el1) {
+    const tbodyRows = $('tbody').children(); // tbody元素的子行集合
 
-            if (i1 === 0) return;
+    // 从1开始跳过星期表头
+    for (let dayIndex = 1; dayIndex < tbodyRows.length; dayIndex++)
+    {
+        const dayRow = tbodyRows[dayIndex]; // 当前星期行元素
 
-            $(this).children().each((i2, el2) => {
-                const none = new RegExp(/display\s?:\s?none/)
+        const dayCells = $(dayRow).children(); // 当前星期行的单元格集合
+        // 从1开始跳过节次
+        for (let sectionIndex = 1; sectionIndex < dayCells.length; sectionIndex++)
+        {
+            const sectionCell = dayCells[sectionIndex]; // 当前单元格元素
 
+            const sectionChildren = $(sectionCell).children();// 获取当前单元格里面所有元素
 
-                if (el2.name == 'div' && !(el2.attribs && (el2.attribs.type == 'hidden' || none.test(el2.attribs.style)))) {
-                    let cls = { name: '' }
+            for (let childIndex = 0; childIndex < sectionChildren.length; childIndex++)
+            {
+                const childElement = sectionChildren[childIndex];
 
-                    el2.childNodes.forEach((node, index) => {
+                const none = /display\s?:\s?none/;
+                // 获取有课表的元素
+                if (childElement.name == 'div' && !(childElement.attribs && (childElement.attribs.type == 'hidden' || none.test(childElement.attribs.style))))
+                {
+                    let course = { name: '' };
 
-
-                        if (node.type == 'text') {
-                            if (!node.data.trim()) return
-
-                            //分割线  "-----------"  同一个时间不同周次的课程要分开
-                            if (/^\-+$/.test(node.data.trim())) {
-                                result.push(cls)
-                                cls = { name: '' }
-                                return
-                            }
-                            //课程名称
-                            cls.name = node.data.trim()
-                            //课程星期
-                            cls.day = i1
-
-
-                        } else 
+                    for (let nodeIndex = 0; nodeIndex < childElement.childNodes.length; nodeIndex++)
+                    {
+                        const node = childElement.childNodes[nodeIndex];
+                        // 取课程名与周次，有重复
+                        if (node.type == 'text' && node.data.trim())
                         {
-                            if (node.attribs && none.test(node.attribs.style)) return
+                            // 分割线 "-----------" 同一个时间不同周次的课程要分开
+                            if (/^[-]+/.test(node.data.trim()))
+                            {
+                                courseAll.push(course);
+                                course = { name: '' };
+                                continue;
+                            }
+                            // 课程名称
+                            course.name = node.data.trim();
+                            // 课程星期
+                            course.day = sectionIndex;
+                        }
+                        else if (!(node.attribs && none.test(node.attribs.style)))
+                        {
 
-                            if (node.name == 'font') {
-                                if (node.attribs && node.attribs.title && node.attribs.title.includes('老师')) {
-                                    //授课老师
-                                    cls.teacher = $(node).text().trim()
-                                } else if (node.attribs && node.attribs.title && node.attribs.title.includes('周次')) {
-                                    let str = /(\d+[\s\-]*\d+|\d+).*周/.exec($(node).text().trim())
-                                    // console.log(str)
-                                    // console.log(str[0])
-                                    //课程节次
-                                    cls.sections = $(node).text().trim().match(/\[(\S*)节/)[1].split('-').map(Number)
-                                    //课程周次
-                                    if (str[1].includes('-')) {
-                                        let arr = str[1].split('-'),
-                                            arr1 = Array(arr[1] - arr[0] + 1).fill().map((v, i) => +i + +arr[0].trim())
+                            if (node.name == 'font')
+                            {
+                                if (node.attribs && node.attribs.title && node.attribs.title.includes('老师'))
+                                {
+                                    course.teacher = $(node).text().trim() //授课老师
+                                } else if (node.attribs && node.attribs.title && node.attribs.title.includes('周次'))
+                                {
 
+                                    course.weeks = []
 
-                                        if (str[0].includes('单周')) {
-                                            cls.weeks = arr1.filter(v => v & 1)
+                                    let info = $(node).text().trim();
+                                    course.sections = info.match(/\[(\S*)节/)[1].split('-').map(Number)//课程节次
 
-                                        } else if (str[0].includes('双周')) {
-                                            cls.weeks = arr1.filter(v => !(v & 1))
+                                    info = info.replace(/\(周\)\[.*?\]/g, '');
 
-                                        } else { 
-                                            cls.weeks = arr1
+                                    // 含有-号分割
+                                    if (info.match(/\b\d+-\d+\b/))// 匹配数字-数字
+                                    {
+                                        // 还包括逗号分割的单独周次
+                                        if (info.includes(','))
+                                        {
+                                            const weeksArray = info.split(','); // 按逗号分割周次字符串成数组
+                                            weeksArray.forEach(week =>
+                                            {
+                                                if (week.includes('-'))
+                                                {
+                                                    const [start, end] = week.split('-').map(Number); // 拆分连续周次的起始周次和结束周次
+                                                    for (let i = start; i <= end; i++)
+                                                    {
+                                                        course.weeks.push(i); // 将连续周次范围内的周次都加入到数组中
+                                                    }
+
+                                                } else
+                                                {
+                                                    course.weeks.push(Number(week)); // 将单个周次直接加入到数组中
+
+                                                }
+                                            });
+
                                         }
-                                    } else {
+                                        // 只含有-号分割
+                                        else
+                                        {
 
-                                        cls.weeks = str[0].split(',').map(str => str.replace(/\D/g, ''))
-                                        cls.weeks = cls.weeks.map(str => parseInt(str, 10));
+                                            const [start, end] = info.split('-').map(Number); // 拆分连续周次的起始周次和结束周次
+                                            for (let i = start; i <= end; i++)
+                                            {
+                                                course.weeks.push(i); // 将连续周次范围内的周次都加入到数组中
+                                            }
+                                        }
+
+                                    } else if (info.includes(',') && !info.includes('-')) // 只有逗号分隔
+                                    {
+                                        course.weeks = info.split(',').map(str => str.replace(/\D/g, ''))
+                                        course.weeks = course.weeks.map(str => parseInt(str, 10));
+
+                                    } else if (!info.includes(',') && !info.includes('-'))// 单个数字
+                                    {
+                                        course.weeks = [Number(info)]
                                     }
-                                } else if (node.attribs && node.attribs.title && node.attribs.title.includes('教室')) {
+
+
+                                } else if (node.attribs && node.attribs.title && node.attribs.title.includes('教室'))
+                                {
                                     //上课地点
-                                    cls.position = $(node).text().trim()
+                                    course.position = $(node).text().trim()
                                 }
                             }
+
                         }
-                    })
-                    if (cls.name) {
+
+                    }
+                    if (course.name)
+                    {
                         //遍历result，如果有相同的课程，就合并
                         let flag = false
-                        result.forEach((v, i) => {
-                            if (v.name == cls.name && v.day == cls.day && v.sections.toString() == cls.sections.toString() && v.position == cls.position) {
+                        courseAll.forEach((v, i) =>
+                        {
+                            if (v.name == course.name && v.day == course.day && v.sections.toString() == course.sections.toString() && v.position == course.position)
+                            {
                                 flag = true
-                                v.weeks = [...new Set([...v.weeks, ...cls.weeks])]
+                                v.weeks = [...new Set([...v.weeks, ...course.weeks])]
                             }
 
                         })
                         if (!flag)
-                            result.push(cls)
+                            courseAll.push(course)
                     }
                 }
-            })
-        })
-    })
 
-    return result
+
+
+            }
+        }
+    }
+    console.log(courseAll);
+    return courseAll; // 返回课程数组
 }
-
 var result = scheduleHtmlParser(table);
-
-
+console.log(result)
 debugger;
